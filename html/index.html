@@ -9,17 +9,17 @@
         <meta name="description" content="QuickSend - это современный почтовый сервис, которые помогает рассылать массовые кампании с минимальным процентом попадания писем в спам" />
         <title data-ru="QuickSend: чтобы отправить письма" data-en="QuickSend: to send mass emails">QuickSend: чтобы отправлять письма</title>
         
-        <link rel="preload" href="./styles/styles.css" as="style" />
-        <link rel="preload" href="./scripts/js.js" as="script" />
-        <link rel="preload" href="./png/logo-no-background.png" as="image" />
+        <link rel="preload" href="../styles/styles.css" as="style" />
+        <link rel="preload" href="../scripts/js.js" as="script" />
+        <link rel="preload" href="../png/logo-no-background.png" as="image" />
         
-        <link rel="shortcut icon" href="./png/energy.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="../png/energy.png" type="image/x-icon" />
         
         <link rel="stylesheet" 
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
         crossorigin="anonymous">
         
-        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="../styles/styles.css" />
     
     </head>
     <body>
@@ -32,7 +32,7 @@
             <header class="header">
                 <a href="index.html" aria-label="quicksend.com">
                     <img
-                        src="./png/logo-no-background.png"
+                        src="../png/logo-no-background.png"
                         alt="QuickSend Логотип"
                         class="logo"
                         loading="eager"
@@ -78,14 +78,14 @@
                     </button>
                     <div class="button-group">
                         <a
-                            href="#"
+                            href="profile.html"
                             class="button signin-button"
                             data-ru="Войти"
                             data-en="Sign In"
                             >Войти</a
                         >
                         <a
-                            href="#"
+                            href="profile.html"
                             class="button startforfree"
                             data-ru="Начать бесплатно"
                             data-en="Start for free"
@@ -120,8 +120,8 @@
                                 Узнать больше
                             </a>
                         </div>
-                        <img src="./png/image.png" alt="chill-guy" class="chill-guy">
-                        <img src="./png/image (1) (1).png" alt="chill-girl" class="chill-girl">
+                        <img src="../png/image.png" alt="chill-guy" class="chill-guy">
+                        <img src="../png/image (1) (1).png" alt="chill-girl" class="chill-girl">
                     </div>
                 </div>
                 </section>
@@ -145,7 +145,7 @@
                     </div>
                     <div class="paper-plane">
                         <img 
-                        src="./png/Group 1.png" 
+                        src="../png/Group 1.png" 
                         alt="paper plane" 
                         loading="lazy"/>
                     </div>
@@ -375,8 +375,8 @@
                 </div>
                 </section>
                 <section class="stats-section" role="article">
-                    <img src="png/Team goals-rafiki.png" alt="Left decoration" class="left-image">
-                    <img src="png/Investment data-rafiki.png" alt="Right decoration" class="right-image">
+                    <img src="../png/Team goals-rafiki.png" alt="Left decoration" class="left-image">
+                    <img src="../png/Investment data-rafiki.png" alt="Right decoration" class="right-image">
                     <div class="section-container">
                         <!--
                         <h2 
@@ -570,7 +570,7 @@
                             >
                         </div>
                     </div>
-                    <img src="./svg/businesswoman.svg" alt="woman" class="woman" />
+                    <img src="../svg/businesswoman.svg" alt="woman" class="woman" />
                 </div>
                 </section>
                 <section id="contact" class="contact-us-section" role="article">
@@ -601,7 +601,7 @@
                     </div>
                     <div class="video-container">
                         <video                             
-                        src="./video/5.webm" 
+                        src="../video/5.webm" 
                         class="animation" 
                         autoplay 
                         muted 
@@ -641,8 +641,18 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
 
-        <script src="./scripts/index.js"></script>
+        <script src="../scripts/index.js"></script>
 
-        <script src="./scripts/getyear.js"></script>
+        <script src="../scripts/getyear.js"></script>
+
+        <script type="module" src="../scripts/getJwt.js" defer></script>
+
+        <script type="module" src="../scripts/checkAuth.js" defer></script>
+    
+        <script type="module" src="../scripts/subs.js" defer></script>
+
+        <script type="module" src="../scripts/animateCounters.js" defer></script>
+
+        <script type="module" src="../scripts/notTrialBtn.js" defer></script>
     </body>
 </html>
